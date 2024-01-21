@@ -1,0 +1,67 @@
+:root{
+   --back:#f5d04e;
+   --p:#989898;
+
+}
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--back);
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #3333339e;
+    padding: 30px;
+    box-shadow: 18px 18px 2px black;
+    background-color: white;
+    border-radius: 20px;
+}
+.container > img{
+    border-radius: 10px;
+}
+.container .txt h3{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: var(--back);
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.container .txt h3 + p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+ .container .txt h1{
+    color: var(--back);
+    font-size: 29px;
+    cursor: pointer;
+    margin-bottom: 30px;
+ }
+ .container .txt h1 + p{
+    color: var(--p);
+    margin-bottom: 20px;
+    line-height: 22px;
+ }
+ .container .foot{
+    display: flex;
+ }
+ .container .foot > img{
+    width: 40px;
+    margin-right: 12px;
+ }
+ .container .foot h2{
+    font-size: 15px;
+    margin-top: 12px;
+ }
